@@ -28,8 +28,7 @@ SECRET_KEY = 'c5v4@&%i#$c%n%^35^5d$6t2o0w@-lt*oc@f%#=ao5^!-(n=rb'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'bankstatementtransformer.azurewebsites.net',
-    'bankstatementtransformer',
+    'bankstatementtransformer.azurewebsites.net'
 ]
 
 
@@ -139,11 +138,11 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Additional settings defined required by Django documentation
-SESSION_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
 
-SECURE_HSTS_SECONDS = 60
-SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-SECURE_HSTS_PRELOAD = True
+# SECURE_HSTS_SECONDS = 60
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_HSTS_PRELOAD = True
 
-SECURE_SSL_REDIRECT = True
-CSRF_COOKIE_SECURE = True
+# SECURE_SSL_REDIRECT = True
+# CSRF_COOKIE_SECURE = True
