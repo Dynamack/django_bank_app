@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/a9b5d099-06f3-4362-832c-b99c14d35845/resourceGroups/RG-UKS-D-Bank-Statements/providers/Microsoft.Web/sites/BankStatementTransformer",
-    "appService.deploySubpath": "."
-}
